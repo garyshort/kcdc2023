@@ -1,0 +1,20 @@
+PENIS
+- P is for parameter
+-- prediction = model + error
+--- model is mostly regression when dealing with people
+---- regression is something like y = b1x1 + b2x3 .. + bnXn + C
+--- error is just the difference between the predicted outcome and the observed outcome
+--- and describes the "fit" of the model, then lower the error then the better the 'fit'
+---- to get total error we could sum the errors
+---- but postive and negitive variance would cancel out
+---- so we square the errors and then sum them (SS)
+---- but the size of the error would then be a function of how many obserations we made
+---- so we take the mean sum squared error (MSE)
+---- but now we have an issue that the MSE is in unit squared and so we have to take the
+---- root to express the value in the original unit... this is called the standard deviation.
+- E is for Estimation
+-- Estimate using method of least squares
+--- Draw U graph using formaula error = observed value - prediction
+---- use mean, say mean of friends was 2.6, guess the mean to be different values
+---- calculate the sum of squared error and then plot prediction of mean vs sum of squared errors
+---- show the correct prediction was the one at the bottom of the U.

@@ -1,0 +1,21 @@
+Sure, Exploratory Data Analysis (EDA) is an important step in any data science or machine learning project. Below are the general steps involved:
+
+1. **Understanding the Variables**: Identify the variables present in the dataset. Try to understand their meaning and importance to the problem at hand. Check the data types of the variables.
+
+2. **Univariate Analysis**: Look at each variable individually. For numerical variables, this might involve calculating statistical measures like mean, median, mode, variance, standard deviation, skewness, kurtosis, etc. For categorical variables, you might look at the frequency of each category. Visualization techniques like histograms, bar plots, or box plots can be very useful in univariate analysis.
+
+3. **Bivariate Analysis**: Now start looking at pairs of variables. You want to understand the relationship between variables and how they interact with each other. Scatter plots, correlation matrices, and cross-tabulation are common tools used in bivariate analysis.
+
+4. **Multivariate Analysis**: This involves analyzing more than two variables at the same time. It can help in understanding complex interactions between variables. Pair plots, parallel coordinate plots, and 3D plots can be used in multivariate analysis.
+
+5. **Handling Missing Values**: Identify where missing values exist in your dataset. Determine whether they are random or if they follow some pattern. This will influence how you handle them during the data cleaning phase.
+
+6. **Outlier Detection**: Identify any outliers in your data. Depending on the context, an outlier could be a mistake, or it could be a valuable piece of information. Boxplots and scatter plots can help identify outliers.
+
+7. **Checking Assumptions**: Many machine learning models make certain assumptions about the data. For example, linear regression assumes a linear relationship between the independent and dependent variables. It's important to verify that your data meets these assumptions.
+
+8. **Feature Engineering**: This involves creating new features that may help improve the model's performance. This can be based on domain knowledge, or it could be based on insights gained during EDA.
+
+9. **Reporting**: Finally, report your findings. This will inform the next steps of your data science or machine learning project.
+
+EDA is an iterative process and doesn't always follow a strict order. Its goal is to help you understand your data and make informed decisions throughout your project.
